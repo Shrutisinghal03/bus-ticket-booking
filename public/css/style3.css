@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+  margin:0;
+font-size: 1rem;
+}
+
+.contlayout{
+  
+  margin-left: 30vmin;
+   margin-right: 20vmin;
+   margin-top: 3vmin;
+ 
+}
+.register{
+  margin-right: 2rem;
+ 
+}
+.register button{
+  height: 2rem;
+  background-color: transparent;
+  color: black;
+  width: 3rem;
+  border: none;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+.lg{
+  margin-top: 1rem;
+  background-color:black;
+  border:1px solid white;
+  color: rgb(241, 184, 62); 
+}
+.f-logo{
+  width: 22vmin;
+  margin-top: 0rem;
+  margin-left: 2rem;
+  display: flex; 
+  justify-content: space-between;
+}
+nav{ 
+  margin-top: 0px;
+  display: flex;
+  font-size: 3vmin;
+  font-weight: 700; 
+  background-color:rgb(241, 184, 62); 
+  color: black; 
+  height:55px;
+  justify-content: space-between;
+}
+  
+  
+
+  .busd{
+   display: flex;
+    padding: 0px  4vmin; 
+  
+  }
+  .busd div{
+    padding: 2vmin; 
+   padding-top: 0;
+  }
+  .bustank{
+  display: flex;
+  border:1px solid  rgb(112, 66, 6);
+ margin-bottom: 1.4rem;
+ border-radius: 15px 50px 30px; 
+  }
+  .busti{
+     
+      }
+  img{
+    
+      box-shadow: 0px 0px 10px 0px rgba(153, 114, 80, 0.493);
+      border-radius: 15px 50px;
+      width: 30vmin;
+      height: 20vmin;
+      margin-top: 5vmin; 
+      padding-left: 6vmin;
+      }
+      .gradient-text {
+    background-image: linear-gradient(to right, pink, yellow);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard syntax */
+    color: transparent;
+  
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.bustank :hover{
+    border-color: azure;
+}
+.btn-txt{
+    background-image: linear-gradient(to right, pink, yellow);
+    color: black;
+    font-size: 1.7vw;
+}
+p{
+    font-size: 1.4vw;
+}
+.seat{
+    display: flex;
+}

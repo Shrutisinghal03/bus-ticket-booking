@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-logo {
+    height: 30vmin;
+    margin-top: 37vmin;
+    position: relative;
+    animation: mymove 15s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes mymove {
+   0% {left: 0vw;}
+    100%{ left:87vw;
+    }
+  }
+  .f-logo{
+    width: 22vmin;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-between;
+  }
+  nav{
+    display: flex;
+    font-size: 3vmin;
+    font-weight: 700; 
+    background-color: rgb(241, 184, 62);
+    height:55px;
+    justify-content: space-between;
+  }
+  .register{
+    display: flex;
+  margin-top: 1rem;
+    width: 20vmin;
+    justify-content: space-between; 
+    margin-right: 2%;
+  }
+  .register button{
+    background-color: transparent;
+    border: none;
+    font-size: 2.5vmin;
+    font-weight: 600;
+  }
+  .busrun{
+    height: 60vmin;
+   
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  form{
+    display: flex;
+  
+    font-style: italic;
+    font-size: 2rem;
+    color: rgb(241, 184, 62);
+    font-weight: 600;
+  }
+  form {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sub{
+    background-color: transparent;
+    border: none;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    color: rgb(241, 184, 62);
+    border-radius: 2px solid   rgb(241, 184, 62);
+  }
+  .data{
+    background-color: rgb(29, 29, 28);
+    font-weight: 600;
+    color: rgb(241, 184, 62);
+    font-size: 8vmin;
+    height: 20vmin;
+    border: 2px solid  rgb(241, 184, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .global{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 2rem;
+    margin-top: 3rem;
+   
+  }
+  .faci{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:beige ;
+  }
+  .faci div{
+    margin:1rem 1rem 0.5rem 0.5rem; 
+   
+  }
+  .faci-img{
+    height: 30vmin;
+    width: 50vmin;
+    border-radius: 10%;
+
+  }
+  .g-head{
+    font-size: 7vmin;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: black;
+    color: rgb(241, 184, 62);
+  }
+  .companies{
+    background-color:rgb(241, 184, 62);
+    color:black;
+opacity: 1.3;
+    text-align: center;
+  
+  }
+  table{
+    width: 100%;
+    margin-top: 5vmin;
+  }
+  td {padding:10px 25px 25px 25px; 
+  font-weight: 700;}
+  .foot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vmin;
+  }

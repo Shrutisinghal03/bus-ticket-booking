@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+
+.f-logo{
+    width: 22vmin;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .fbtn{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    font-size: 3vmin;
+    font-weight: 700; 
+    background-color:black;
+    color: rgb(241, 184, 62); 
+    height:55px;
+    justify-content: space-between;
+  }
+  .bgk{
+    background-image: url("/images/download.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter:brightness(50%); 
+    z-index: 0;
+    height: 590px;
+    width: 1310px;
+    position: absolute;
+    
+  }
+  form{
+    box-shadow: 10px 10px 5px rgb(18, 22, 24);
+
+    position: relative;
+    background-color: black;
+   z-index: 1; 
+    font-style: italic;
+    height: 20vmin;
+    font-size: 2rem;
+    color: rgb(241, 184, 62);
+    font-weight: 600;     
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 13rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12rem;
+  width: 750px;
+  }
+  .f-logo{
+    width: 22vmin;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    display: flex; 
+    justify-content: space-between;
+  }
+  .register button{
+    height: 2rem;
+    background-color: transparent;
+    color:rgb(241, 184, 62) ;
+    width: 3rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-top: 1.3rem;
+  }
+  .btn-txt{
+
+    background-image: linear-gradient(to right, pink, yellow);
+    color: black;
+    font-size: 1.7vw;
+   margin-left: 2rem;
+   width: 10rem;
+   display: block;
+}
+.fc1{
+margin-top: 2rem;
+padding-top: 2rem;
+padding-left: 6rem;
+}
+.fc2{
+margin-top: 1rem;
+margin-left: 15rem;
+}
+#suggestions {
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: black;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style5.css">
+    <title>Document</title>
+
+</head>
+<body>
+      <nav>
+        <div class='f-logo'>
+               <p>BusTrack</p>
+            
+           
+       </div>
+        <div class='register'>
+            <a href='../'>
+                <button class="lg" type='submit'>Logout</button>
+            </a>
+        </div>
+    </nav> 
+    <div class="bgk">
+
+    </div>
+    <form action="../Travel" method="POST">
+    <div style="display: flex;" class="fc1">
+ <label for="fname">From</label><br />
+            <input type="text" id="fname" name="fname"  onkeyup="showSuggestions()" />
+       
+            <label for="lname">To</label><br />
+            <input type="text" id="lname" name="lname"   onkeyup="showSuggestions2()" />
+             <input type="date" id="date" name="date" />
+
+    </div>
+   
+         <div class="fc2">
+<button type="submit"  value="Travel" class="btn-txt" >Search</button>
+         </div>
+     
+        <div id="suggestions"></div>     
+    </form>
+   
+    <script src="/js/main1.js"></script>
+</body>
+</html>

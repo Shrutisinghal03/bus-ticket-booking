@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ball{
+  width: 200px;
+  height: 200px;
+  background-color: #32cdb063;
+  border-radius: 50%;
+  position: absolute;
+  top: inherit;
+  left: inherit;
+  left: -26%;
+  top: -26%;
+}
+
+
+.ball2{
+  width: 200px;
+  height: 200px;
+  background-color: #2093db63;
+  border-radius: 50%;
+  position: absolute;
+  top: inherit;
+  left: inherit;
+  left: 78%;
+  top: 79%
+}
+form {
+
+  margin-top: 40px;
+  background-color: #1a1a1bc9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px whitesmoke;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #36454F;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: lightblue;
+}
+
+.btnclk {
+  margin-top: 10px;
+}
+
+/* Optional: Style for input focus */
+.form-control:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
